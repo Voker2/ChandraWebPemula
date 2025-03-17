@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Mekatronika</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        @font-face {
+            font-family: 'Velista';
+            src: url('VELISTA.ttf') format('truetype');
+        }
+        body {
+            font-family: 'Velista', Arial, sans-serif;
+            background: linear-gradient(to right, #ffffff, #800080);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #4b0082;
+            color: white;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .project-card {
+            background: #f8f8ff;
+            border-left: 5px solid #800080;
+            padding: 15px;
+            margin: 10px auto;
+            width: 60%;
+            border-radius: 8px;
+        }
+        .wa-button, .next-page-button {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .next-page-button {
+            background: #800080;
+            margin-left: 15px;
+        }
+        footer {
+            background: #4b0082;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Portofolio Mekatronika</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="section">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang mahasiswa mekatronika yang memiliki ketertarikan dalam robotika, otomasi, dan IoT.</p>
+    </section>
+    
+    <section id="projects" class="section">
+        <h2>Proyek</h2>
+        <div class="project-card">
+            <h3>Robot Line Follower</h3>
+            <p>Robot cerdas yang mampu mengikuti garis secara otomatis menggunakan sensor infrared.</p>
+        </div>
+        <div class="project-card">
+            <h3>Smart Home System</h3>
+            <p>Sistem rumah pintar berbasis IoT untuk mengontrol lampu dan suhu ruangan.</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Keahlian</h2>
+        <ul>
+            <li>Program Arduino & PLC</li>
+            <li>Desain PCB</li>
+            <li>Pemrograman Python & C++</li>
+            <li>Internet of Things (IoT)</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/profil</a></p>
+        <a class="wa-button" href="https://wa.me/6282171334874" target="_blank">Hubungi via WhatsApp</a>
+        <a class="next-page-button" href="journey.html">Lihat Perjalanan Hidup</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Portofolio Mekatronika</p>
+    </footer>
+</body>
+</html>
